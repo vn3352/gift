@@ -11,4 +11,5 @@
 |
 */
 
-Route::get('/', 'HelloLaravelController@welcome');
+Route::get('/', 'LoginController@index');
+Route::post('/login', 'LoginController@index');
